@@ -1,0 +1,5 @@
+*.sln text eol=lf
+*.fsproj text eol=lf
+*.fs text eol=lf
+*.csproj text eol=lf
+*.cs text eol=lf

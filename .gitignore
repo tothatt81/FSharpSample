@@ -1,0 +1,7 @@
+.vscode
+
+src/Library/bin
+src/Library/obj
+
+src/App/bin
+src/App/obj
