@@ -10,6 +10,13 @@ Console.WriteLine(endpoint.IsInclusive);
 
 Console.WriteLine(endpoint.ToInt);
 
+Console.WriteLine(endpoint switch
+{
+  Endpoint.Inclusive e => $"Inclusive {e.Item}",
+  Endpoint.Exclusive e => $"Exclusive {e.Item}",
+  _ => "Unknown"
+});
+
 var interval = new Interval(
   Endpoint.NewInclusive(1),
   Endpoint.NewExclusive(5)
